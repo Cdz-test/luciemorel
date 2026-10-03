@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#eeebe3">
+<title>Lucie Morel — Photographe, les choses vivantes</title>
+<meta name="description" content="Lucie Morel, photographe indépendante à Paris. Portraits, récits de voyage et campagnes sensibles. Des images qui se ressentent avant de se raconter.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{paper:'#eeebe3',ink:'#252722',rust:'#a83726'},fontFamily:{sans:['Manrope','sans-serif'],display:['Bodoni Moda','serif']}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+</head>
+<body class="bg-paper text-ink font-sans">
+<div class="site-shell">
+<style>
+html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0}::selection{background:#a83726;color:#eeebe3}a,button{ -webkit-tap-highlight-color:transparent}button,a{touch-action:manipulation}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #a83726;outline-offset:6px}img{display:block} .label{font-size:10px;letter-spacing:.17em;text-transform:uppercase;font-weight:700}.display{font-family:'Bodoni Moda',serif;letter-spacing:-.065em;line-height:.95}.line-link{position:relative}.line-link:after{content:"";position:absolute;left:0;bottom:-5px;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.16,1,.3,1)}.line-link:hover:after{transform:scaleX(1)}.photo img{transition:transform 1.1s cubic-bezier(.16,1,.3,1),filter .6s}.photo:hover img{transform:scale(1.045)}.arrow-button{display:inline-flex;align-items:center;gap:25px}.arrow-button i{transition:transform .4s}.arrow-button:hover i{transform:translate(4px,-4px)}.entrance{animation:entrance 1.4s cubic-bezier(.16,1,.3,1) both}.entrance-delayed{animation:entrance 1.4s .18s cubic-bezier(.16,1,.3,1) both}.hero-photo{animation:photo-in 1.7s cubic-bezier(.16,1,.3,1) both}.spin{animation:spin 26s linear infinite}.marquee{animation:marquee 30s linear infinite}.film-grain:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.1;background-image:url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=100&q=20");mix-blend-mode:soft-light}.service-row summary::-webkit-details-marker{display:none}.service-row summary{list-style:none;cursor:pointer}.service-row[open] .service-plus{transform:rotate(45deg)}.service-plus{transition:transform .3s}.filter{transition:background .3s,color .3s}.filter[aria-pressed=true]{background:#252722;color:#eeebe3}.project[hidden]{display:none}.nav-panel{transition:transform .5s cubic-bezier(.16,1,.3,1)}.nav-panel[hidden]{display:none}dialog{padding:0;border:none;background:#eeebe3;color:#252722;max-width:min(900px,92vw);max-height:90vh}dialog::backdrop{background:#171914e8;backdrop-filter:blur(8px)}@keyframes entrance{from{opacity:0;transform:translateY(50px)}to{opacity:1;transform:none}}@keyframes photo-in{from{clip-path:inset(0 0 100% 0);transform:scale(1.06)}to{clip-path:inset(0);transform:scale(1)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes marquee{to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}} 
+</style>
+<header class="relative z-40 px-6 md:px-12 py-6 flex items-center justify-between border-b border-ink/15">
+<a href="#" aria-label="Lucie Morel, accueil" class="text-xl font-extrabold tracking-[-.07em]">lucie morel<span class="text-rust">.</span></a>
+<div class="hidden md:block label text-ink/55">Photographe indépendante · Paris & ailleurs</div>
+<nav class="hidden md:flex items-center gap-8 text-xs font-semibold">
+<a href="#images" class="line-link">Les images</a><a href="#regard" class="line-link">Le regard</a><a href="#contact" class="arrow-button">Parlons-en <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+</nav>
+<button class="md:hidden w-10 h-10" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-navigation" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+<nav id="mobile-navigation" hidden class="nav-panel absolute top-full left-0 w-full bg-paper p-8 border-b border-ink/20 md:hidden">
+<a class="block display text-4xl py-3" href="#images">Les images</a><a class="block display text-4xl py-3" href="#regard">Le regard</a><a class="block display text-4xl py-3 text-rust" href="#contact">Parlons-en</a>
+</nav>
+<script>
+(()=>{const b=document.getElementById('menu-toggle'),n=document.getElementById('mobile-navigation');b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));n.hidden=open;b.setAttribute('aria-label',open?'Ouvrir le menu':'Fermer le menu');});n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.hidden=true;b.setAttribute('aria-expanded','false');}));})();
+</script>
+</header>
+
+<main>
+<section class="px-6 md:px-12 pt-9 md:pt-12 pb-6">
+<div class="flex justify-between label entrance mb-7"><span>Des images. Des émotions. Du vrai.</span><span class="hidden sm:block">Portfolio — 2026</span></div>
+<div class="relative">
+<h1 class="display text-[clamp(5rem,15.7vw,15.5rem)] entrance relative z-10">Les choses<br><span class="italic text-rust ml-[11%]">vivantes.</span></h1>
+<div class="md:absolute right-0 top-[26%] max-w-[215px] my-7 md:my-0 entrance-delayed">
+<p class="text-sm leading-relaxed">Ce qui passe.<br>Ce qui reste.<br>Et tout ce qu’une image peut dire entre les deux.</p>
+</div>
+</div>
+<div class="relative mt-7 md:mt-[-12px] h-[440px] md:h-[530px] overflow-hidden hero-photo film-grain">
+<img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=80" alt="Maison solitaire au bord d’un lac alpin, montagnes et lumière du soir" class="w-full h-full object-cover object-[center_56%]">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+<div class="absolute inset-x-6 md:inset-x-10 bottom-8 text-white flex justify-between items-end">
+<div><p class="label mb-3">01 / Carnet de route</p><p class="font-display italic text-3xl md:text-4xl">Là où le silence habite.</p></div>
+<a href="#images" class="w-14 h-14 md:w-20 md:h-20 rounded-full border border-white/60 flex items-center justify-center hover:bg-paper hover:text-ink transition-colors" aria-label="Découvrir les photographies"><i class="fa-solid fa-arrow-down"></i></a>
+</div>
+<div class="absolute top-6 left-6 text-white label">Dolomites, Italie · 06:42</div>
+</div>
+<div class="flex justify-between mt-4 label text-ink/60"><span>Portraits / Éditorial / Échappées</span><span>La lumière fait le reste.</span></div>
+</section>
+
+<section id="images" class="px-6 md:px-12 pt-24 md:pt-32 pb-24">
+<style>@media (prefers-reduced-motion: no-preference) { @supports (animation-timeline: view()) { .reveal { animation: reveal both cubic-bezier(0.16, 1, 0.3, 1); animation-timeline: view(); animation-range: entry 0% entry 90%; } } } @keyframes reveal { from { opacity: 0; transform: translateY(3rem) scale(0.98); } to { opacity: 1; transform: none; } }</style>
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
+<div class="reveal"><p class="label mb-5 text-rust">01 — Fragments choisis</p><h2 class="display text-[clamp(3.5rem,7vw,7rem)]">Un peu du monde.<br><span class="italic">Beaucoup de vie.</span></h2></div>
+<div class="flex flex-wrap gap-2 mb-1" aria-label="Filtrer les photographies">
+<button class="filter border border-ink/20 rounded-full px-4 py-2 text-xs" data-filter="all" aria-pressed="true">Tout</button>
+<button class="filter border border-ink/20 rounded-full px-4 py-2 text-xs" data-filter="portrait" aria-pressed="false">Portraits</button>
+<button class="filter border border-ink/20 rounded-full px-4 py-2 text-xs" data-filter="voyage" aria-pressed="false">Échappées</button>
+<button class="filter border border-ink/20 rounded-full px-4 py-2 text-xs" data-filter="editorial" aria-pressed="false">Éditorial</button>
+</div>
+</div>
+<div class="grid md:grid-cols-12 gap-x-8 gap-y-12 md:gap-y-20 items-start">
+<button class="project photo text-left md:col-span-7 reveal" data-category="voyage" data-caption="Au bout du bleu — Côte atlantique, 2025">
+<div class="overflow-hidden"><img class="w-full aspect-[4/3] object-cover" src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=80" alt="Vagues de l’Atlantique dans une brume bleue"></div>
+<div class="flex justify-between mt-4"><h3 class="text-sm font-semibold">Au bout du bleu</h3><span class="label text-ink/50">Échappées · 2025 ↗</span></div>
+</button>
+<button class="project photo text-left md:col-span-4 md:col-start-9 md:mt-32 reveal" data-category="portrait" data-caption="Une présence — Portrait en lumière naturelle, 2025">
+<div class="overflow-hidden"><img class="w-full aspect-[3/4] object-cover grayscale" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Portrait rapproché d’une jeune femme au regard franc"></div>
+<div class="flex justify-between mt-4"><h3 class="text-sm font-semibold">Une présence</h3><span class="label text-ink/50">Portrait · 2025 ↗</span></div>
+</button>
+<button class="project photo text-left md:col-span-4 md:ml-12 reveal" data-category="editorial" data-caption="La part du geste — Étude végétale, 2026">
+<div class="overflow-hidden"><img class="w-full aspect-[3/4] object-cover" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80" alt="Scène de mode dans la ville, silhouettes et textures en lumière naturelle"></div>
+<div class="flex justify-between mt-4"><h3 class="text-sm font-semibold">À même la ville</h3><span class="label text-ink/50">Éditorial · 2026 ↗</span></div>
+</button>
+<button class="project photo text-left md:col-span-7 md:col-start-6 md:mt-24 reveal" data-category="voyage" data-caption="Les heures lentes — Alpes, 2025">
+<div class="overflow-hidden"><img class="w-full aspect-[4/3] object-cover" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80" alt="Sommet alpin dentelé émergeant des nuages"></div>
+<div class="flex justify-between mt-4"><h3 class="text-sm font-semibold">Les heures lentes</h3><span class="label text-ink/50">Échappées · 2025 ↗</span></div>
+</button>
+</div>
+<dialog id="image-dialog">
+<div class="relative"><button id="close-image" class="absolute right-4 top-4 w-11 h-11 bg-paper rounded-full z-10 hover:bg-rust hover:text-white transition-colors" aria-label="Fermer la photographie"><i class="fa-solid fa-xmark"></i></button><img id="dialog-image" class="w-full max-h-[74vh] object-contain" alt=""><p id="dialog-caption" class="px-6 py-5 text-sm"></p></div>
+</dialog>
+<script>
+(()=>{const section=document.getElementById('images'),buttons=section.querySelectorAll('[data-filter]'),projects=section.querySelectorAll('.project'),d=document.getElementById('image-dialog');buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));projects.forEach(p=>p.hidden=b.dataset.filter!=='all'&&p.dataset.category!==b.dataset.filter);}));projects.forEach(p=>p.addEventListener('click',()=>{const img=p.querySelector('img');document.getElementById('dialog-image').src=img.src;document.getElementById('dialog-image').alt=img.alt;document.getElementById('dialog-caption').textContent=p.dataset.caption;d.showModal();}));document.getElementById('close-image').addEventListener('click',()=>d.close());d.addEventListener('click',e=>{if(e.target===d)d.close();});})();
+</script>
+</section>
+
+<section id="regard" class="bg-rust text-paper px-6 md:px-12 py-24 md:py-32 relative overflow-hidden">
+<div class="max-w-6xl mx-auto">
+<p class="label reveal mb-12">02 — Une façon de voir</p>
+<h2 class="display text-[clamp(3.3rem,7.4vw,7.8rem)] reveal">Je ne cherche pas<br>l’image parfaite.<br>Je cherche <span class="italic">celle<br class="hidden md:block"> qui vous touche.</span></h2>
+<div class="grid md:grid-cols-2 gap-12 mt-16 md:mt-20">
+<div class="flex items-end"><span class="text-7xl font-display italic opacity-60">«</span><p class="text-sm ml-5 mb-3">Moins de mise en scène.<br>Plus de présence.</p></div>
+<p class="reveal text-base md:text-lg leading-relaxed max-w-lg">Un souffle avant de sourire. Un rayon qui traverse une pièce. Une route prise sans savoir où elle mène. Je photographie ces instants fragiles, quand les choses cessent de poser et commencent à exister.</p>
+</div>
+</div>
+<div class="absolute right-[-70px] top-14 w-48 h-48 rounded-full border border-paper/20 pointer-events-none"></div>
+</section>
+
+<section class="story-wrapper relative">
+<style>
+.story-wrapper{view-timeline-name:--story}
+@media(min-width:768px){.story-wrapper{height:170vh}.story-inner{position:sticky;top:0;height:100vh}}
+@media(prefers-reduced-motion:no-preference){@supports(animation-timeline:view()){.story-image{animation:story-zoom linear both;animation-timeline:--story;animation-range:contain 0% contain 100%}}}
+@keyframes story-zoom{from{transform:scale(1)}to{transform:scale(1.16)}}
+</style>
+<div class="story-inner min-h-[680px] overflow-hidden text-white flex items-end relative">
+<img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=2000&q=80" alt="Forêt profonde traversée de lumière, troncs et sous-bois verdoyant" class="story-image absolute inset-0 w-full h-full object-cover">
+<div class="absolute inset-0 bg-gradient-to-t from-[#17231a]/90 via-[#17231a]/20 to-black/20"></div>
+<div class="absolute top-10 left-6 md:left-12 label">03 — Histoire d’une série</div>
+<div class="relative w-full px-6 md:px-12 pb-12 md:pb-20 grid md:grid-cols-12 gap-10 items-end">
+<div class="md:col-span-8"><p class="label mb-6 text-white/70">Journal de terrain / Vosges / Automne 2025</p><h2 class="display text-[clamp(4.5rem,10vw,10rem)]">Revenir<br><span class="italic">à l’essentiel.</span></h2></div>
+<div class="md:col-span-4 md:pb-4"><p class="text-sm leading-relaxed mb-8 max-w-sm">Trois jours de marche. Pas de réseau. La forêt, la pluie, et ce sentiment rare de n’avoir besoin de rien d’autre. Une série sur la beauté de ralentir.</p><a href="#contact" class="arrow-button text-sm border-b border-white/50 pb-3">Demander le carnet complet <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></div>
+</div>
+</div>
+</section>
+
+<section class="px-6 md:px-12 py-24 md:py-32">
+<div class="grid md:grid-cols-12 gap-12 md:gap-20">
+<div class="md:col-span-5 reveal"><p class="label text-rust mb-6">04 — Créons ensemble</p><h2 class="display text-6xl lg:text-7xl">Votre histoire.<br><span class="italic">Mon regard.</span></h2><p class="text-sm leading-relaxed mt-8 max-w-xs text-ink/70">Pour les personnes, les marques et les lieux qui ont quelque chose de sincère à raconter.</p><a href="#contact" class="arrow-button mt-10 text-sm font-semibold">Imaginer un projet <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></div>
+<div class="md:col-span-7">
+<details open class="service-row border-t border-ink/25 py-6 reveal">
+<summary class="flex justify-between items-center gap-4"><span class="label text-rust">01</span><h3 class="font-display text-3xl md:text-4xl flex-1 ml-3">Portraits sensibles</h3><i class="service-plus fa-solid fa-plus text-sm"></i></summary>
+<div class="pl-10 md:pl-12 pt-6"><p class="text-sm leading-relaxed max-w-md text-ink/70">Seul, à deux, en famille. Une séance sans pression, en lumière naturelle, pour vous reconnaître dans des images qui ne trichent pas.</p><p class="label mt-5">1 h 30 de rencontre · 25 images retouchées · À partir de 320 €</p></div>
+</details>
+<details class="service-row border-t border-ink/25 py-6 reveal">
+<summary class="flex justify-between items-center gap-4"><span class="label text-rust">02</span><h3 class="font-display text-3xl md:text-4xl flex-1 ml-3">Marques vivantes</h3><i class="service-plus fa-solid fa-plus text-sm"></i></summary>
+<div class="pl-10 md:pl-12 pt-6"><p class="text-sm leading-relaxed max-w-md text-ink/70">Artisans, maisons indépendantes, lieux d’hospitalité : une direction photographique sur mesure, du premier échange à la livraison. Des images à la hauteur de ce que vous faites.</p><p class="label mt-5">Campagnes · Reportages · Contenus éditoriaux · Sur devis</p></div>
+</details>
+<details class="service-row border-y border-ink/25 py-6 reveal">
+<summary class="flex justify-between items-center gap-4"><span class="label text-rust">03</span><h3 class="font-display text-3xl md:text-4xl flex-1 ml-3">Jours précieux</h3><i class="service-plus fa-solid fa-plus text-sm"></i></summary>
+<div class="pl-10 md:pl-12 pt-6"><p class="text-sm leading-relaxed max-w-md text-ink/70">Les retrouvailles, les oui, les grandes tablées. Je me glisse dans votre journée pour en garder les gestes, les regards, et tout ce que vous n’aurez pas eu le temps de voir.</p><p class="label mt-5">Mariages intimes · Reportages de famille · Sur devis</p></div>
+</details>
+</div>
+</div>
+</section>
+
+<section class="bg-[#deded3] px-6 md:px-12 py-20 md:py-28">
+<div class="grid md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-5 relative reveal photo">
+<div class="overflow-hidden mr-8"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" class="w-full aspect-[3/4] object-cover grayscale" alt="Lucie, cheveux au vent, en lumière naturelle"></div>
+<div class="absolute -right-2 bottom-8 bg-rust text-paper w-28 h-28 rounded-full flex items-center justify-center -rotate-12"><span class="text-center label leading-5">Toujours<br>en quête<br>de lumière</span></div>
+<p class="label mt-4 text-ink/60">De l’autre côté de l’objectif.</p>
+</div>
+<div class="md:col-span-6 md:col-start-7 reveal">
+<p class="label text-rust mb-7">05 — Bonjour, je suis Lucie</p>
+<h2 class="display text-[clamp(3.7rem,6vw,6.5rem)]">Un appareil.<br>Et une grande<br><span class="italic">curiosité.</span></h2>
+<div class="max-w-md mt-8 space-y-5 text-sm leading-relaxed text-ink/75"><p>Paris est mon point de départ. Le reste est une invitation. Depuis huit ans, je raconte les gens et les lieux avec la même envie : prendre le temps de vraiment les voir.</p><p>J’aime les matins qui commencent tôt, les tirages qu’on garde longtemps et les conversations qui font oublier l’appareil. Je travaille au numérique et à l’argentique, selon ce que l’histoire demande.</p></div>
+<div class="flex gap-10 mt-10 border-t border-ink/20 pt-6"><div><span class="font-display text-4xl">8</span><p class="label mt-2">Années à regarder</p></div><div><span class="font-display text-4xl">∞</span><p class="label mt-2">Raisons de partir</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="px-6 md:px-12 py-24 md:py-32 text-center max-w-5xl mx-auto">
+<p class="label text-rust reveal mb-9">06 — Après les images, les mots</p>
+<div class="font-display text-6xl text-rust mb-1">“</div>
+<blockquote class="display text-[clamp(2.4rem,4.7vw,4.8rem)] leading-[1.15] reveal">Lucie a photographié notre lieu comme on photographie une personne : <span class="italic text-rust">avec attention, avec douceur, avec justesse.</span></blockquote>
+<p class="label mt-10">Claire & Julien</p><p class="text-xs text-ink/60 mt-2">Fondateurs de Maison des Jours · Reportage de marque</p>
+</section>
+
+<div class="overflow-hidden border-y border-ink/20 py-5 select-none" aria-hidden="true">
+<div class="marquee flex w-max gap-10 text-[clamp(2rem,4vw,4rem)] font-display italic text-rust">
+<span>La beauté est déjà là. Il suffit de regarder. ↗</span><span>La beauté est déjà là. Il suffit de regarder. ↗</span><span>La beauté est déjà là. Il suffit de regarder. ↗</span><span>La beauté est déjà là. Il suffit de regarder. ↗</span>
+</div>
+</div>
+
+<section id="contact" class="bg-ink text-paper px-6 md:px-12 py-24 md:py-32 relative overflow-hidden">
+<div class="flex justify-between items-center mb-12"><p class="label text-paper/60">07 — La prochaine histoire</p><span class="label flex gap-2 items-center"><span class="w-2 h-2 rounded-full bg-[#bdd09c]"></span>Agenda 2026 ouvert</span></div>
+<h2 class="display text-[clamp(4.6rem,11vw,11.5rem)] reveal">Et si on faisait<br><span class="italic text-[#c4c4ac]">quelque chose</span><br>de beau ?</h2>
+<div class="grid md:grid-cols-2 gap-12 mt-14 md:mt-20 items-end">
+<p class="text-sm leading-relaxed text-paper/65 max-w-sm">Une idée précise ou une envie encore floue ? Racontez-moi. Dites-moi qui vous êtes, ce qui vous anime, et ce que vous aimeriez garder.</p>
+<div><a href="mailto:bonjour@luciemorel.fr" class="arrow-button font-display text-[clamp(1.5rem,3.4vw,3.5rem)] border-b border-paper/40 pb-5 w-full justify-between hover:text-[#c4c4ac] transition-colors"><span>bonjour@luciemorel.fr</span><i class="fa-solid fa-arrow-up-right-from-square text-lg md:text-2xl"></i></a><p class="label text-paper/45 mt-5">Une réponse personnelle sous 2 jours ouvrés.</p></div>
+</div>
+</section>
+</main>
+<footer class="bg-ink text-paper px-6 md:px-12 border-t border-paper/20 py-9">
+<div class="flex flex-col md:flex-row justify-between gap-8 md:items-center">
+<a href="#" class="font-extrabold text-xl tracking-[-.07em]">lucie morel<span class="text-[#c4c4ac]">.</span></a>
+<p class="text-xs text-paper/50">Paris, France · Disponible partout où votre histoire m’emmène.</p>
+<a href="#images" class="line-link text-xs">Retour aux images ↗</a>
+</div>
+<div class="flex flex-col sm:flex-row justify-between gap-5 mt-10 text-[10px] tracking-wide text-paper/40"><span>© 2026 Lucie Morel · Photographies & histoires</span><span>Fait avec attention. Comme les images.</span><a href="#" class="hover:text-paper transition-colors">Retour en haut ↑</a></div>
+</footer>
+</div>
+</body>
+</html>
